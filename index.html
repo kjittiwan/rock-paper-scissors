@@ -2,11 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <script src="javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
+    <div id="game">
+      <h1 class="gametext"id="message">Choose wisely..</h1>
+      <div class="hands">
+        <img class="player-hand" src="./images/ROCK.png">
+        <img class="computer-hand" src="./images/ROCK.png">
+      </div>
+      <div id="display">
+        
+        <p class="gametext"id="playerText">Player:</p>
+        <p class="gametext"id="computerText">Computer:</p>
+        
+        <div class="scoreText">
+          <p class="gametext"id="playerScoreText">You:</p>
+          <p class="gametext"id="computerScoreText">Computer:</p>
+        </div>
+        <div id="btn-container">
+          <button class="choiceBtn">ROCK</button>
+          <button class="choiceBtn">PAPER</button>
+          <button class="choiceBtn">SCISSORS</button>
+        </div>
+        <p class="gametext"id="resultText"></p>
+        
+        
+        
+        
+
+      </div>
+      <div class="intro">
+        <h1>Rock Paper Scissors</h1>
+        <p>First to 5 wins!</p>
+        <p>Are you the hero who will save humanity from the machines?</p>
+        <button class="introBtn">Play</button>
+      </div>
+    </div>
+
     
 
+    
 
+  <script src="javascript.js"></script>
   </body>
 </html>

@@ -1,0 +1,75 @@
+body {
+  font-family: "Press Start 2P", sans-serif;
+  font-weight: 400;
+  background-color: #e9e5f1;
+  padding: 50px;
+}
+
+
+.gametext {
+  color: #0D0D0D;
+  text-align: center;
+}
+#playerScoreText, #computerScoreText{
+  font-weight: bolder;
+  font-size: 40px;
+}
+.scoreText {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+
+}
+img{
+  width: 250px;
+  max-width: 250px;
+}
+
+button{
+  border-radius: 8px;
+  border-style: solid;
+  font-family: "Press Start 2P", sans-serif;
+  font-weight: bolder;
+  background-color: #8685EF;
+  color: white ;
+  border-color: #0D0D0D;
+  width:150px;
+  height:50px;
+  border-width: 3px;
+  
+}
+.intro{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0;
+}
+.computer-hand{
+  transform: rotateY(180deg);
+}
+.hands{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 60px;
+
+}
+#playerText, #computerText , #resultText{
+  display: none;
+  margin-top: 40px;
+}
+#resultText{
+  text-align: center;
+}
+#message{
+  color: #272661;
+}
